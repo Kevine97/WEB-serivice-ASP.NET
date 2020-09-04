@@ -24,7 +24,7 @@ public partial class _Default : Page
             String mes = Convert.ToString(dia_Actual.Month);
             String dia = Convert.ToString(dia_Actual.Day);
 
-        Label1.Text = "Tipo de cambio en Córdobas por USD:" + "\t\t"+ WS.RecuperaTC_Dia(Convert.ToInt32(ano), Convert.ToInt32(mes), Convert.ToInt32(ano)).ToString();
+        Label1.Text = "Tipo de cambio en Córdobas por USD:" + "\t\t"+ WS.RecuperaTC_Dia(Convert.ToInt32(ano), Convert.ToInt32(mes), Convert.ToInt32(dia)).ToString();
            switch (mes)
            {
                case "1":Label2.Text = "Fecha: "+dia+" de enero del "+ano; break;
