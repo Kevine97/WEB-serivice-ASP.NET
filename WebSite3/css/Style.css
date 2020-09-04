@@ -1,0 +1,191 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Roboto:wght@100&display=swap');
+body {
+    /*
+    /*background: #000428; /* fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #004e92, #000428); /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    color: #FFFFFF;
+    background-color: none !important;
+}
+
+
+#nav-bar {
+    position: sticky;
+    top: 0 !important;
+    z-index: 10 !important;
+    border-bottom: none !important;
+}
+
+.navbar-collapse {
+    border-top: none !important;
+}
+
+.navbar {
+    background-image: linear-gradient(to left, rgb(52, 194, 235), rgb(26, 127, 195));
+    padding: 10px 0 !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+hr {
+    color: white !important;
+}
+
+
+.navbar-brand img {
+    height: 60px;
+    padding-left: 20px;
+    color: white !important;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white !important;
+    font-size: 26pt;
+    font-family: 'Agency FB';
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+nav ul li a {
+    color: #fff !important;
+    font-size: 12pt;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul li a:hover {
+    color: #ff8f03 !important;
+    transition: .9s;
+}
+
+        nav ul li a:after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%) scaleX(0);
+            -webkit-transform: translateX(-50%) scaleX(0);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            width: 100%;
+            height: 2px;
+            background-color: #ff8f03 !important;
+            -webkit-transition: transform 250ms;
+            transition: transform 250ms;
+        }
+
+    nav ul li a:hover:after {
+        -webkit-transform: translateX(-50%) scaleX(1);
+        transform: translateX(-50%) scaleX(1);
+    }
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border: none !important;
+}
+
+#navbarNav {
+    outline: none !important;
+    border: none !important;
+}
+/* -------------------------------------------------------------------------*/
+/* ---------------------------------------- BANNER--------------------------*/
+/* -------------------------------------------------------------------------*/
+#banner {
+    background-image: linear-gradient(to left, rgb(52, 194, 235), rgb(26, 127, 195));
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    
+}
+
+.play-btn {
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.botton-img {
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------------*/
+/* ----------------------------------SERVICES--------------------------*/
+/* -------------------------------------------------------------------------*/
+
+#services {
+    padding: 80px 0;
+}
+
+.services-img {
+    width: 200px;
+}
+
+
+.btn {
+    background-color: rgb(42, 42, 80) !important;
+    outline: none !important;
+    border-color: transparent !important;
+}
+
+    .btn:hover {
+        background: rgb(31, 30, 70) !important;
+        
+    }
+
+
+
+.label {
+    text-align:center;
+    font-size: 9pt !important;
+    
+    color: rgb(31, 30, 70) !important;
+}
+
+.lead {
+    color: rgb(31, 30, 70) !important;
+}
+
+.form-control {
+    color: rgb(31, 30, 70) !important;
+    outline: none !important;
+    border-color: #000428 !important;
+}
+
+.ke{
+    font-size: 26pt;
+    text-align: center;
+}
+.titulo {
+    color: #000428 !important;
+    font-size: 30pt;
+    font-family: 'Agency FB';
+}
+
+.jumbotron {
+    background-image: linear-gradient(-60deg, #ff8f03 0%, #ffcc00 100%) !important;
+}
+
