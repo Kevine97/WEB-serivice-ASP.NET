@@ -1,4 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Roboto:wght@100&display=swap');
+
 body {
     /*
     /*background: #000428; /* fallback for old browsers 
@@ -62,26 +63,27 @@ nav ul li a {
     font-family: 'Noto Sans KR', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-nav ul li a:hover {
-    color: #ff8f03 !important;
-    transition: .9s;
-}
 
-        nav ul li a:after {
-            content: '';
-            position: absolute;
-            left: 50%;
-            bottom: 0;
-            transform: translateX(-50%) scaleX(0);
-            -webkit-transform: translateX(-50%) scaleX(0);
-            -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-            width: 100%;
-            height: 2px;
-            background-color: #ff8f03 !important;
-            -webkit-transition: transform 250ms;
-            transition: transform 250ms;
-        }
+    nav ul li a:hover {
+        color: #ff8f03 !important;
+        transition: .9s;
+    }
+
+    nav ul li a:after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) scaleX(0);
+        -webkit-transform: translateX(-50%) scaleX(0);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        width: 100%;
+        height: 2px;
+        background-color: #ff8f03 !important;
+        -webkit-transition: transform 250ms;
+        transition: transform 250ms;
+    }
 
     nav ul li a:hover:after {
         -webkit-transform: translateX(-50%) scaleX(1);
@@ -102,9 +104,9 @@ nav ul li a:hover {
     outline: none !important;
     border: none !important;
 }
-/* -------------------------------------------------------------------------*/
-/* ---------------------------------------- BANNER--------------------------*/
-/* -------------------------------------------------------------------------*/
+ /*-------------------------------------------------------------------------
+ ---------------------------------------- BANNER--------------------------
+ -------------------------------------------------------------------------*/
 #banner {
     background-image: linear-gradient(to left, rgb(52, 194, 235), rgb(26, 127, 195));
     color: #fff;
@@ -115,7 +117,6 @@ nav ul li a:hover {
     font-size: 40px;
     font-weight: 600;
     margin-top: 100px;
-    
 }
 
 .play-btn {
@@ -153,15 +154,13 @@ nav ul li a:hover {
 
     .btn:hover {
         background: rgb(31, 30, 70) !important;
-        
     }
 
 
 
 .label {
-    text-align:center;
+    text-align: center;
     font-size: 9pt !important;
-    
     color: rgb(31, 30, 70) !important;
 }
 
@@ -175,10 +174,11 @@ nav ul li a:hover {
     border-color: #000428 !important;
 }
 
-.ke{
+.ke {
     font-size: 26pt;
     text-align: center;
 }
+
 .titulo {
     color: #000428 !important;
     font-size: 30pt;
@@ -186,6 +186,28 @@ nav ul li a:hover {
 }
 
 .jumbotron {
-    background-image: linear-gradient(-60deg, #ff8f03 0%, #ffcc00 100%) !important;
+    background-image: linear-gradient(-60deg, #ff8f03 0%, #ffcc00 100%) !important
 }
+
+.table-condensed tr th {
+    border: 0px solid #6e7bd9 !important;
+    color: white;
+    background-color: #ff8f03 ;
+    font-size: 12pt;
+}
+
+.table-condensed, .table-condensed tr td {
+    border: 0px solid #000;
+}
+
+.table tr:nth-child(even) {
+    background: rgb(42, 42, 80) ;
+    color: #FFFFFF;
+}
+
+.table tr:nth-child(odd) {
+    background: #fff;
+}
+
+
 
